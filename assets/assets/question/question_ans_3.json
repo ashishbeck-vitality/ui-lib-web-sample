@@ -1,0 +1,233 @@
+{
+  "questionnaire": [
+    {
+      "questionnaireMetaDatas": [
+        {
+          "typeCode": "LiferayContentId",
+          "typeKey": 1,
+          "typeName": "Liferay ContentId",
+          "value": "profile-nutfatsandoilsprof.json"
+        }
+      ],
+      "questionnaireSections": [
+        {
+          "questions": [
+            {
+              "questionDecorator": {
+                "channelTypeCode": "Mobile",
+                "channelTypeKey": 1,
+                "channelTypeName": "Mobile",
+                "typeCode": "YesNo",
+                "typeKey": 8,
+                "typeName": "YesNo"
+              },
+              "validValues": [
+                {
+                  "validValueTypes": [
+                    {
+                      "typeCode": "Text",
+                      "typeKey": 5,
+                      "typeName": "Text"
+                    }
+                  ],
+                  "name": "Yes",
+                  "value": "Yes"
+                },
+                {
+                  "validValueTypes": [
+                    {
+                      "typeCode": "Text",
+                      "typeKey": 5,
+                      "typeName": "Text"
+                    }
+                  ],
+                  "name": "No",
+                  "value": "No"
+                }
+              ],
+              "isMandatory": true,
+              "questionTypeCode": "SingleSelect",
+              "questionTypeKey": 9,
+              "questionTypeName": "Single Select",
+              "sortOrderIndex": 1,
+              "text": "Are you willing to try new recipes with healthy fats and oils?",
+              "typeCode": "FatsAndOilsProfQ1",
+              "typeKey": 3958
+            },
+            {
+              "questionDecorator": {
+                "channelTypeCode": "Mobile",
+                "channelTypeKey": 1,
+                "channelTypeName": "Mobile",
+                "typeCode": "Checkbox",
+                "typeKey": 2,
+                "typeName": "Checkbox"
+              },
+              "validValues": [
+                {
+                  "validValueTypes": [
+                    {
+                      "typeCode": "Text",
+                      "typeKey": 5,
+                      "typeName": "Text"
+                    }
+                  ],
+                  "name": "ItsChallengingToFindWhatIWantInTheGroceryStoreSupermarketNearMe",
+                  "value": "Its challenging to find what I want in the grocery store or supermarket near me."
+                },
+                {
+                  "validValueTypes": [
+                    {
+                      "typeCode": "Text",
+                      "typeKey": 5,
+                      "typeName": "Text"
+                    }
+                  ],
+                  "name": "MyFamlyNotSupportive",
+                  "value": "My family is not supportive."
+                },
+                {
+                  "validValueTypes": [
+                    {
+                      "typeCode": "Text",
+                      "typeKey": 5,
+                      "typeName": "Text"
+                    }
+                  ],
+                  "name": "IDontLikeTheTaste",
+                  "value": "I dont like the taste."
+                },
+                {
+                  "validValueTypes": [
+                    {
+                      "typeCode": "Text",
+                      "typeKey": 5,
+                      "typeName": "Text"
+                    }
+                  ],
+                  "name": "IDontKnowHowToPrepareCookBakeWithHealthyOilsAndFats",
+                  "value": "I dont know how to prepare/cook/bake with healthy oils and fats."
+                },
+                {
+                  "validValueTypes": [
+                    {
+                      "typeCode": "Text",
+                      "typeKey": 5,
+                      "typeName": "Text"
+                    }
+                  ],
+                  "name": "Other",
+                  "value": "Other"
+                }
+              ],
+              "isMandatory": true,
+              "questionTypeCode": "SingleSelect",
+              "questionTypeKey": 9,
+              "questionTypeName": "Single Select",
+              "sortOrderIndex": 2,
+              "text": "What is your greatest challenge in consuming healthy fats and oils?",
+              "typeCode": "FatsAndOilsProfQ2",
+              "typeKey": 3959
+            },
+            {
+              "questionDecorator": {
+                "channelTypeCode": "Mobile",
+                "channelTypeKey": 1,
+                "channelTypeName": "Mobile",
+                "typeCode": "Checkbox",
+                "typeKey": 2,
+                "typeName": "Checkbox"
+              },
+              "validValues": [
+                {
+                  "validValueTypes": [
+                    {
+                      "typeCode": "Text",
+                      "typeKey": 5,
+                      "typeName": "Text"
+                    }
+                  ],
+                  "name": "AllTheFoodsInMyKitchenStockAreLowInSaturatedFats",
+                  "value": "All the foods in my kitchen stock are low in saturated fats."
+                },
+                {
+                  "validValueTypes": [
+                    {
+                      "typeCode": "Text",
+                      "typeKey": 5,
+                      "typeName": "Text"
+                    }
+                  ],
+                  "name": "75%OfTheFoodInMyKitchenIsLowInSaturatedFats",
+                  "value": "75% of the food in my kitchen is low in saturated fats."
+                },
+                {
+                  "validValueTypes": [
+                    {
+                      "typeCode": "Text",
+                      "typeKey": 5,
+                      "typeName": "Text"
+                    }
+                  ],
+                  "name": "50%OfMyKitchenStockIsLowInSaturatedFats",
+                  "value": "50% of my kitchen stock is low in saturated fats."
+                },
+                {
+                  "validValueTypes": [
+                    {
+                      "typeCode": "Text",
+                      "typeKey": 5,
+                      "typeName": "Text"
+                    }
+                  ],
+                  "name": "25%OfMyKitchenStockIsLowInSaturatedFats",
+                  "value": "25% of my kitchen stock is low in saturated fats"
+                },
+                {
+                  "validValueTypes": [
+                    {
+                      "typeCode": "Text",
+                      "typeKey": 5,
+                      "typeName": "Text"
+                    }
+                  ],
+                  "name": "LessThan10%OfMyKitchenStockIsLowInSaturatedFats",
+                  "value": "Less than 10% of my kitchen stock is low in saturated fats."
+                }
+              ],
+              "isMandatory": true,
+              "questionTypeCode": "SingleSelect",
+              "questionTypeKey": 9,
+              "questionTypeName": "Single Select",
+              "sortOrderIndex": 3,
+              "text": "If you had to guess, what percentage of your kitchen (refrigerator, freezer, cupboards, pantry) is filled with foods that are low in saturated fats?",
+              "typeCode": "FatsAndOilsProfQ3",
+              "typeKey": 3960
+            }
+          ],
+          "questionnaireSectionTheme": {
+            "key": 4,
+            "name": "Profile On Mobile"
+          },
+          "isVisible": true,
+          "sortOrderIndex": 1,
+          "text": "Create a Profile: Your Fats & Oils Profile ",
+          "textDescription": "\"The information acquired will be used to: Provide immediate, educational feedback to the member and provide a learning experience Create a longitudinal view of member preferences and challenges. ",
+          "typeCode": "NutFatsOilsProfQS",
+          "typeKey": 59,
+          "typeName": "Profile - Nutrition - Fats and Oils",
+          "visibilityTagName": ""
+        }
+      ],
+      "sortOrderIndex": 1,
+      "text": "Create a Profile: Your Fats & Oils Profile ",
+      "textDescription": "\"The information acquired will be used to:",
+      "typeCode": "NutFatsandOilsProf",
+      "typeKey": 39,
+      "typeName": "Profile - Nutrition - Fats and Oils"
+    }
+  ],
+  "questionnaireSetTypeCode": "AR2020Profiles",
+  "questionnaireSetTypeKey": 18,
+  "questionnaireSetTypeName": "Active Reward 2020 Profiles"
+}

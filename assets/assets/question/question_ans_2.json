@@ -1,0 +1,612 @@
+{
+  "questionnaire": [
+    {
+      "questionnaireMetaDatas": [
+        {
+          "typeCode": "LiferayContentId",
+          "typeKey": 1,
+          "typeName": "Liferay ContentId",
+          "value": "quiz-csdiabetes.json"
+        }
+      ],
+      "questionnaireSections": [
+        {
+          "questions": [
+            {
+              "questionDecorator": {
+                "channelTypeCode": "Mobile",
+                "channelTypeKey": 1,
+                "channelTypeName": "Mobile",
+                "typeCode": "CheckBoxExcepAll",
+                "typeKey": 27,
+                "typeName": "Check Box Except All"
+              },
+              "questionMetaDatas": [
+                {
+                  "typeCode": "QuesCorrectAns",
+                  "typeKey": 1,
+                  "typeName": "Question Correct Answer",
+                  "value": "AllOfTheAbove"
+                }
+              ],
+              "validValues": [
+                {
+                  "validValueTypes": [
+                    {
+                      "typeCode": "Text",
+                      "typeKey": 5,
+                      "typeName": "Text"
+                    }
+                  ],
+                  "name": "GettingLabTestsPerMyDoctorsAdvice",
+                  "value": "Getting laboratory tests according to my doctors orders"
+                },
+                {
+                  "validValueTypes": [
+                    {
+                      "typeCode": "Text",
+                      "typeKey": 5,
+                      "typeName": "Text"
+                    }
+                  ],
+                  "name": "VisitingMyDoctorRegularly",
+                  "value": "Visiting my doctor regularly"
+                },
+                {
+                  "validValueTypes": [
+                    {
+                      "typeCode": "Text",
+                      "typeKey": 5,
+                      "typeName": "Text"
+                    }
+                  ],
+                  "name": "TakingMyMedicinesPerMyDoctorsDirections",
+                  "value": "Taking my medication according to my doctors directions"
+                },
+                {
+                  "validValueTypes": [
+                    {
+                      "typeCode": "Text",
+                      "typeKey": 5,
+                      "typeName": "Text"
+                    }
+                  ],
+                  "name": "FollowingAHealthyMealPlan",
+                  "value": "Following a healthy meal plan"
+                },
+                {
+                  "validValueTypes": [
+                    {
+                      "typeCode": "Text",
+                      "typeKey": 5,
+                      "typeName": "Text"
+                    }
+                  ],
+                  "name": "AllOfTheAbove",
+                  "value": "All of the above"
+                }
+              ],
+              "isMandatory": true,
+              "questionTypeCode": "MultipleSelect",
+              "questionTypeKey": 10,
+              "questionTypeName": "Multiple Select",
+              "sortOrderIndex": 8.0,
+              "text": "Which of the following are important self-care behaviours in managing diabetes?",
+              "typeCode": "HADiabetesQuizQ8",
+              "typeKey": 1
+            },
+            {
+              "questionDecorator": {
+                "channelTypeCode": "Mobile",
+                "channelTypeKey": 1,
+                "channelTypeName": "Mobile",
+                "typeCode": "CheckBoxExcepAll",
+                "typeKey": 27,
+                "typeName": "Check Box Except All"
+              },
+              "questionMetaDatas": [
+                {
+                  "typeCode": "Exlusive Answers",
+                  "typeKey": 1,
+                  "typeName": "Question Correct Answer",
+                  "value": "AllOfTheAbove,"
+                }
+              ],
+              "validValues": [
+                {
+                  "validValueTypes": [
+                    {
+                      "typeCode": "Text",
+                      "typeKey": 5,
+                      "typeName": "Text"
+                    }
+                  ],
+                  "name": "PromotesDigestiveHealth",
+                  "value": "Promotes Digestive Health"
+                },
+                {
+                  "validValueTypes": [
+                    {
+                      "typeCode": "Text",
+                      "typeKey": 5,
+                      "typeName": "Text"
+                    }
+                  ],
+                  "name": "IPreferNotToAnswer",
+                  "value": "IPreferNotToAnswer"
+                },
+                {
+                  "validValueTypes": [
+                    {
+                      "typeCode": "Text",
+                      "typeKey": 5,
+                      "typeName": "Text"
+                    }
+                  ],
+                  "name": "LowersBloodCholesterolLevels",
+                  "value": "Lowers Blood Cholesterol Levels"
+                },
+                {
+                  "validValueTypes": [
+                    {
+                      "typeCode": "Text",
+                      "typeKey": 5,
+                      "typeName": "Text"
+                    }
+                  ],
+                  "name": "LowersYourRiskOfType2Diabetes",
+                  "value": "Lowers Your Risk Of Type 2 Diabetes"
+                },
+                {
+                  "validValueTypes": [
+                    {
+                      "typeCode": "Text",
+                      "typeKey": 5,
+                      "typeName": "Text"
+                    }
+                  ],
+                  "name": "AllOfTheAbove",
+                  "value": "All Of The Above"
+                },
+                {
+                  "validValueTypes": [
+                    {
+                      "typeCode": "Text",
+                      "typeKey": 5,
+                      "typeName": "Text"
+                    }
+                  ],
+                  "name": "NoneOfTheAbove",
+                  "value": "None Of The Above"
+                }
+              ],
+              "isMandatory": true,
+              "questionTypeCode": "SingleSelect",
+              "questionTypeKey": 9,
+              "questionTypeName": "Single Select",
+              "sortOrderIndex": 3,
+              "text": "Which of these is a health benefit of including whole grains in your daily eating habits?",
+              "typeCode": "WholeGrainsQuizQ3",
+              "typeKey": 2
+            },
+            {
+              "questionDecorator": {
+                "channelTypeCode": "Mobile",
+                "channelTypeKey": 1,
+                "channelTypeName": "Mobile",
+                "typeCode": "Checkbox",
+                "typeKey": 2,
+                "typeName": "Checkbox"
+              },
+              "questionMetaDatas": [
+                {
+                  "typeCode": "QuesCorrectAns",
+                  "typeKey": 1,
+                  "typeName": "Question Correct Answer",
+                  "value": "WorkingTowardHavingYourA1CBloodPressureAndCholesterolNumbersInControl"
+                }
+              ],
+              "validValues": [
+                {
+                  "validValueTypes": [
+                    {
+                      "typeCode": "Text",
+                      "typeKey": 5,
+                      "typeName": "Text"
+                    }
+                  ],
+                  "name": "WorkingTowardHavingYourA1CBloodPressureAndCholesterolNumbersInControl",
+                  "value": "Aiming to get your A1C, blood pressure and cholesterol numbers in control"
+                },
+                {
+                  "validValueTypes": [
+                    {
+                      "typeCode": "Text",
+                      "typeKey": 5,
+                      "typeName": "Text"
+                    }
+                  ],
+                  "name": "WorkingTowardHavingYourActionPlanBehaviorsAndConditionManaged",
+                  "value": "Aiming to have your action plan, behaviours and condition managed"
+                },
+                {
+                  "validValueTypes": [
+                    {
+                      "typeCode": "Text",
+                      "typeKey": 5,
+                      "typeName": "Text"
+                    }
+                  ],
+                  "name": "WorkingTowardHavingYourAttitudeBloodSugarAndCholesterolInCheck",
+                  "value": "Aiming to get your attitude, blood sugar and cholesterol in check"
+                }
+              ],
+              "isMandatory": true,
+              "questionTypeCode": "SingleSelect",
+              "questionTypeKey": 9,
+              "questionTypeName": "Single Select",
+              "sortOrderIndex": 1.0,
+              "text": "What are the basic aims to manage diabetes?",
+              "typeCode": "HADiabetesQuizQ1",
+              "typeKey": 262
+            },
+            {
+              "questionDecorator": {
+                "channelTypeCode": "Mobile",
+                "channelTypeKey": 1,
+                "channelTypeName": "Mobile",
+                "typeCode": "TrueFalse",
+                "typeKey": 28,
+                "typeName": "TrueFalse"
+              },
+              "questionMetaDatas": [
+                {
+                  "typeCode": "QuesCorrectAns",
+                  "typeKey": 1,
+                  "typeName": "Question Correct Answer",
+                  "value": "True"
+                }
+              ],
+              "validValues": [
+                {
+                  "validValueTypes": [
+                    {
+                      "typeCode": "Boolean",
+                      "typeKey": 6,
+                      "typeName": "Boolean"
+                    }
+                  ],
+                  "name": "True",
+                  "value": "True"
+                },
+                {
+                  "validValueTypes": [
+                    {
+                      "typeCode": "Boolean",
+                      "typeKey": 6,
+                      "typeName": "Boolean"
+                    }
+                  ],
+                  "name": "False",
+                  "value": "False"
+                }
+              ],
+              "isMandatory": true,
+              "questionTypeCode": "SingleSelect",
+              "questionTypeKey": 9,
+              "questionTypeName": "Single Select",
+              "sortOrderIndex": 2.0,
+              "text": "An annual eye exam is recommended for people with diabetes.",
+              "typeCode": "HADiabetesQuizQ2",
+              "typeKey": 3783
+            },
+            {
+              "questionDecorator": {
+                "channelTypeCode": "Mobile",
+                "channelTypeKey": 1,
+                "channelTypeName": "Mobile",
+                "typeCode": "Checkbox",
+                "typeKey": 2,
+                "typeName": "Checkbox"
+              },
+              "questionMetaDatas": [
+                {
+                  "typeCode": "QuesCorrectAns",
+                  "typeKey": 1,
+                  "typeName": "Question Correct Answer",
+                  "value": "KidneyDisease"
+                }
+              ],
+              "validValues": [
+                {
+                  "validValueTypes": [
+                    {
+                      "typeCode": "Text",
+                      "typeKey": 5,
+                      "typeName": "Text"
+                    }
+                  ],
+                  "name": "NerveDisease",
+                  "value": "Nerve disease"
+                },
+                {
+                  "validValueTypes": [
+                    {
+                      "typeCode": "Text",
+                      "typeKey": 5,
+                      "typeName": "Text"
+                    }
+                  ],
+                  "name": "KidneyDisease",
+                  "value": "Kidney disease"
+                },
+                {
+                  "validValueTypes": [
+                    {
+                      "typeCode": "Text",
+                      "typeKey": 5,
+                      "typeName": "Text"
+                    }
+                  ],
+                  "name": "AWalkingPath",
+                  "value": "A walking path"
+                },
+                {
+                  "validValueTypes": [
+                    {
+                      "typeCode": "Text",
+                      "typeKey": 5,
+                      "typeName": "Text"
+                    }
+                  ],
+                  "name": "Depression",
+                  "value": "Depression"
+                },
+                {
+                  "validValueTypes": [
+                    {
+                      "typeCode": "Text",
+                      "typeKey": 5,
+                      "typeName": "Text"
+                    }
+                  ],
+                  "name": "HighBloodPressure",
+                  "value": "High blood pressure"
+                }
+              ],
+              "isMandatory": true,
+              "questionTypeCode": "SingleSelect",
+              "questionTypeKey": 9,
+              "questionTypeName": "Single Select",
+              "sortOrderIndex": 3.0,
+              "text": "Nephropathy is:",
+              "typeCode": "HADiabetesQuizQ3",
+              "typeKey": 3784
+            },
+            {
+              "questionDecorator": {
+                "channelTypeCode": "Mobile",
+                "channelTypeKey": 1,
+                "channelTypeName": "Mobile",
+                "typeCode": "TrueFalse",
+                "typeKey": 28,
+                "typeName": "TrueFalse"
+              },
+              "questionMetaDatas": [
+                {
+                  "typeCode": "QuesCorrectAns",
+                  "typeKey": 1,
+                  "typeName": "Question Correct Answer",
+                  "value": "False"
+                }
+              ],
+              "validValues": [
+                {
+                  "validValueTypes": [
+                    {
+                      "typeCode": "Boolean",
+                      "typeKey": 6,
+                      "typeName": "Boolean"
+                    }
+                  ],
+                  "name": "True",
+                  "value": "True"
+                },
+                {
+                  "validValueTypes": [
+                    {
+                      "typeCode": "Boolean",
+                      "typeKey": 6,
+                      "typeName": "Boolean"
+                    }
+                  ],
+                  "name": "False",
+                  "value": "False"
+                }
+              ],
+              "isMandatory": true,
+              "questionTypeCode": "SingleSelect",
+              "questionTypeKey": 9,
+              "questionTypeName": "Single Select",
+              "sortOrderIndex": 4.0,
+              "text": "Depression is not common for people with diabetes.",
+              "typeCode": "HADiabetesQuizQ4",
+              "typeKey": 3785
+            },
+            {
+              "questionDecorator": {
+                "channelTypeCode": "Mobile",
+                "channelTypeKey": 1,
+                "channelTypeName": "Mobile",
+                "typeCode": "TrueFalse",
+                "typeKey": 28,
+                "typeName": "TrueFalse"
+              },
+              "questionMetaDatas": [
+                {
+                  "typeCode": "QuesCorrectAns",
+                  "typeKey": 1,
+                  "typeName": "Question Correct Answer",
+                  "value": "True"
+                }
+              ],
+              "validValues": [
+                {
+                  "validValueTypes": [
+                    {
+                      "typeCode": "Boolean",
+                      "typeKey": 6,
+                      "typeName": "Boolean"
+                    }
+                  ],
+                  "name": "True",
+                  "value": "True"
+                },
+                {
+                  "validValueTypes": [
+                    {
+                      "typeCode": "Boolean",
+                      "typeKey": 6,
+                      "typeName": "Boolean"
+                    }
+                  ],
+                  "name": "False",
+                  "value": "False"
+                }
+              ],
+              "isMandatory": true,
+              "questionTypeCode": "SingleSelect",
+              "questionTypeKey": 9,
+              "questionTypeName": "Single Select",
+              "sortOrderIndex": 5.0,
+              "text": "Being physically active is encouraged for people with diabetes.",
+              "typeCode": "HADiabetesQuizQ5",
+              "typeKey": 3786
+            },
+            {
+              "questionDecorator": {
+                "channelTypeCode": "Mobile",
+                "channelTypeKey": 1,
+                "channelTypeName": "Mobile",
+                "typeCode": "TrueFalse",
+                "typeKey": 28,
+                "typeName": "TrueFalse"
+              },
+              "questionMetaDatas": [
+                {
+                  "typeCode": "QuesCorrectAns",
+                  "typeKey": 1,
+                  "typeName": "Question Correct Answer",
+                  "value": "False"
+                }
+              ],
+              "validValues": [
+                {
+                  "validValueTypes": [
+                    {
+                      "typeCode": "Boolean",
+                      "typeKey": 6,
+                      "typeName": "Boolean"
+                    }
+                  ],
+                  "name": "True",
+                  "value": "True"
+                },
+                {
+                  "validValueTypes": [
+                    {
+                      "typeCode": "Boolean",
+                      "typeKey": 6,
+                      "typeName": "Boolean"
+                    }
+                  ],
+                  "name": "False",
+                  "value": "False"
+                }
+              ],
+              "isMandatory": true,
+              "questionTypeCode": "SingleSelect",
+              "questionTypeKey": 9,
+              "questionTypeName": "Single Select",
+              "sortOrderIndex": 6.0,
+              "text": "People with diabetes are not allowed to eat sugar.",
+              "typeCode": "HADiabetesQuizQ6",
+              "typeKey": 3787
+            },
+            {
+              "questionDecorator": {
+                "channelTypeCode": "Mobile",
+                "channelTypeKey": 1,
+                "channelTypeName": "Mobile",
+                "typeCode": "TrueFalse",
+                "typeKey": 28,
+                "typeName": "TrueFalse"
+              },
+              "questionMetaDatas": [
+                {
+                  "typeCode": "QuesCorrectAns",
+                  "typeKey": 1,
+                  "typeName": "Question Correct Answer",
+                  "value": "False"
+                }
+              ],
+              "validValues": [
+                {
+                  "validValueTypes": [
+                    {
+                      "typeCode": "Boolean",
+                      "typeKey": 6,
+                      "typeName": "Boolean"
+                    }
+                  ],
+                  "name": "True",
+                  "value": "True"
+                },
+                {
+                  "validValueTypes": [
+                    {
+                      "typeCode": "Boolean",
+                      "typeKey": 6,
+                      "typeName": "Boolean"
+                    }
+                  ],
+                  "name": "False",
+                  "value": "False"
+                }
+              ],
+              "isMandatory": true,
+              "questionTypeCode": "SingleSelect",
+              "questionTypeKey": 9,
+              "questionTypeName": "Single Select",
+              "sortOrderIndex": 7.0,
+              "text": "Only obese or overweight people get diabetes.",
+              "typeCode": "HADiabetesQuizQ7",
+              "typeKey": 3788
+            }
+          ],
+          "questionnaireSectionTheme": {
+            "key": 3,
+            "name": "Quiz On Mobile"
+          },
+          "isVisible": true,
+          "sortOrderIndex": 1.0,
+          "text": "Quiz: Diabetes and Health Management",
+          "textDescription": "The questions and feedback to answers aim to help the member understand the connection between manag",
+          "typeCode": "CSDiabetesQS",
+          "typeKey": 53,
+          "typeName": "Condition Support - Diabetes",
+          "visibilityTagName": ""
+        }
+      ],
+      "sortOrderIndex": 1.0,
+      "text": "Quiz: Diabetes and Health Management",
+      "textDescription": "The questions and feedback to answers aim to help the member understand the connection between managing diabetes and overall well-being as well as clarify or debunk misunderstood facts.",
+      "typeCode": "CSDiabetes",
+      "typeKey": 32,
+      "typeName": "Condition Support - Diabetes"
+    }
+  ],
+  "questionnaireSetTypeCode": "AR2020Quizzes",
+  "questionnaireSetTypeKey": 16,
+  "questionnaireSetTypeName": "Active Reward 2020 Quizzes"
+}
